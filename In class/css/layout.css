@@ -1,0 +1,49 @@
+* {
+    box-sizing: border-box;
+    /*border: 1px solid red; enable to show grids*/
+
+}
+img {
+    width: 100%;
+}
+
+.clearfix {
+  overflow: auto;
+  zoom: 1;
+}
+.grid {
+  margin: 0 auto;
+  max-width: 960px;
+  width: 100%;
+}
+.row {
+/*display: block;
+float: left;
+clear: both;*/
+
+}
+.column {
+  display: inline-block;
+  float: left;
+  padding: 20px;
+  width: calc(100%/3);
+}
+
+.text-columns {
+  columns: 3;
+}
+
+#banner {
+  position: fixed;
+  z-index: 1;
+  top: 50px;
+  left: -127px;
+  background-color: orange;
+  color: white;
+  padding: 15px;
+  width: 400px;
+  text-align: center;
+  transform: rotate(-45deg);
+  box-shadow: 2px 22px 30px rgba(0,0,0,.3);
+
+}
