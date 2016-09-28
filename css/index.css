@@ -1,0 +1,28 @@
+* {
+    box-sizing: border-box;
+    /*border: 1px solid black;*/
+}
+
+body {
+    text-align: center;
+    background-color: grey;
+}
+
+.box {
+    display: inline-block;
+    margin:20px;
+    color: white;
+    border: 2px solid darkgrey;
+    border-radius: 45px;
+    background-color: rgb(54, 74, 105);
+}
+img {
+    border-radius: 45px;
+}
+a {
+    max-width: 200px;
+    max-height: 150px;
+    width: 100%;
+    height: auto;
+
+}
